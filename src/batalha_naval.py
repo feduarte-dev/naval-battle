@@ -1,2 +1,4 @@
 def battleship(grid: list[list[int]], line: int, column: int) -> bool:
-    raise NotImplementedError
+    if grid[line][column] == 1:
+        return True
+    return False
